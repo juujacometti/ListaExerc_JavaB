@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lista 2 - Condicionais/Lista 2 - Condicionais.iml" filepath="$PROJECT_DIR$/Lista 2 - Condicionais/Lista 2 - Condicionais.iml" />
       <module fileurl="file://$PROJECT_DIR$/Listas de exercício.iml" filepath="$PROJECT_DIR$/Listas de exercício.iml" />
     </modules>
   </component>
