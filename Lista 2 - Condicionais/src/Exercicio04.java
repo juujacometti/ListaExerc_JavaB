@@ -6,11 +6,14 @@ public class Exercicio04 {
 
 /*
 Pergunte ao usuário onde ele pretende passar suas férias.
+- Maceió: +100% com almoço/janta, +85% sem; Porto de Galinhas: +60% com almoço/janta, +45% sem.
 - Além disso, o programa deve perguntar se ele deseja o valor com almoço/janta incluso ou não e mostrar o valor final da viagem na tela.
 - O valor base de cálculo para todas as viagens é de R$3000,00.
 - (Atente-se aos códigos/números que deverão ser usados para fazer as condições no programa):
 */
 
+
+        int escolha;
 
     }
 }
