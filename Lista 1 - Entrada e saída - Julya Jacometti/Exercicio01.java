@@ -29,10 +29,27 @@ public class Exercicio01 {
 
         while (true) {
             // Solicitação das informações para o usuário
-            System.out.print("Nome: ");
-            nome = leia.nextLine();
-            System.out.print("Sobrenome: ");
-            sobrenome = leia.nextLine();
+            // Verificação de nome
+            while (true) {
+                try {
+                    System.out.print("Nome: ");
+                    nome = leia.nextLine().trim();
+                    break;
+                } catch (InputMismatchException e) {
+                    System.out.println("Insira apenas letras. Tente novsmente!");
+                }
+            }
+
+            // Verificação do sobrenome
+            while (true) {
+                try {
+                    System.out.print("Sobrenome: ");
+                    sobrenome = leia.nextLine().trim();
+                    break;
+                } catch (InputMismatchException e) {
+                    System.out.println("Insira apenas letras. Tente novsmente!");
+                }
+            }
 
             // Verificação de data
             while (true) {
@@ -92,8 +109,16 @@ public class Exercicio01 {
                 }
             }
 
-            System.out.print("Cargo pretendido: ");
-            cargoPret = leia.nextLine();
+            // Verificação do sobrenome
+            while (true) {
+                try {
+                    System.out.print("Cargo pretendido: ");
+                    cargoPret = leia.nextLine().trim();
+                    break;
+                } catch (InputMismatchException e) {
+                    System.out.println("Insira apenas letras. Tente novsmente!");
+                }
+            }
 
             // Verificação de CNH
             while (true) {
